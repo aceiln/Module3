@@ -5,7 +5,7 @@ var four = 64.55;
 var five = "Howdy!";
 var six;
 
-// Insert comments to explain what each console log below will log to the console
+// number, string, boo, number, string, undefined
 console.log(typeof one); 
 console.log(typeof two); 
 console.log(typeof three); 
@@ -17,7 +17,7 @@ four = "Hello!";
 five = false;
 six = 23;
 
-// Insert comments to explain what each console log below will log to the console
+// string, boo, number
 console.log(typeof four);
 console.log(typeof five);
 console.log(typeof six);
