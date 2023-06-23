@@ -1,6 +1,5 @@
-var kiss = 16;
+var kiss = 9;
 
-//true true
 if(kiss<=15){
     console.log('more kiss pls');
 } else {
@@ -14,24 +13,20 @@ if (kiss < 10){
 }else {
     console.log('mwah mwahmhwamhawmh')
 }
-//false true
-
-//false false
 
 
 
 
+ var x = 50;
+ var lower = (x < 25);
+ var over = (x > 50);
 
-
-
-/// var x = 50;
-/// var lower = (x < 25);
-/// var over = (x > 50);
-
-/// if(lower){
-///     console.log('less than 25');
-/// } else if(!over) {
-///     console.log('in between');
-/// }else {
-///     console.log('over 50');
-/// }
+if (lower===true && over===true) {
+    console.log('true and true')
+}else if(lower===true) {
+    console.log('true and false')
+}else if(over===true) {
+    console.log('false and true')
+}else {
+    console.log('false and false')
+}
