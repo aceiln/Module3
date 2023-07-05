@@ -5,5 +5,5 @@ for (var kiss=0; kiss<10; kiss++) {
 
 var names =['cutie', 'love','darling','andrew']
 for (var kiss=0; kiss< names.length; kiss++){
-    console.log(' blah blah ' + names[kiss]+'.');
+    console.log(' MWAH MWAH ' + names[kiss]+'.');
 }

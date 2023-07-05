@@ -26,7 +26,7 @@ var investor = {
 };
 
 // TODO: After commenting, check your results!
-helloThis();
+console.log(helloThis());
 
 // TODO: After commenting, check your results!
 child.ageTenYears();
